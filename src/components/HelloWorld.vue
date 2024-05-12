@@ -4,8 +4,8 @@
     <h1>CHR<span class="orange">ON</span>OS</h1>
     <p>Śledź ile zostało czasu do najważniejszych wydarzeń w Twoim życiu dzięki spersonalizowanemu odliczaniu!</p>
     <div class="buttons-wrapper">
-      <button class="btn-orange">Zobacz listę wydarzeń</button>
-      <button class="btn-white">Dodaj nowe zdarzenie</button>
+      <button class="btn-orange">Dodaj nowe zdarzenie</button>
+      <button class="btn-white">Zobacz listę wydarzeń</button>
     </div>
     </div>
     <div class="image-container">
@@ -32,18 +32,25 @@ export default {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10rem
+    gap: 20rem
   }
 
   .text-container {
-    width: 35%;
+    width: 25%;
     display: flex;
     flex-direction: column;
   }
 
-  h1, p {
+  h1{
     margin-top: 0;
+    font-size: 3.5rem;
     font-weight: 400;
+  }
+
+  p {
+    margin-top: 0;
+    font-size: 1.5rem;
+    font-weight: 300;
   }
 
   span {
@@ -59,7 +66,7 @@ export default {
   }
 
   .image-container {
-    width: 35%;
+    width: 25%;
   }
 
   img {
@@ -72,6 +79,7 @@ export default {
     border: 2px solid #F9A826;
     color: white;
     border-radius: 6px;
+    font-size: 1rem;
   }
 
   .btn-white {
@@ -81,6 +89,7 @@ export default {
     color: #F9A826;
     border: 2px solid #F9A826;
     border-radius: 6px;
+    font-size: 1rem;
   }
 
   h1 {
